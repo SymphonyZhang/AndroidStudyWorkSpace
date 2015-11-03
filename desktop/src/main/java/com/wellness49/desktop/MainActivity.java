@@ -86,9 +86,9 @@ public class MainActivity extends Activity {
         cartoons_img.setOnFocusChangeListener(new MyFocusListener());
         internet_img.setOnFocusChangeListener(new MyFocusListener());
         extras_img.setOnFocusChangeListener(new MyFocusListener());
-        setting_img.setOnFocusChangeListener(new MyFocusListener());
+        //setting_img.setOnFocusChangeListener(new MyFocusListener());
 
-        cryo_img.setOnFocusChangeListener(new MyFocusListener());
+        /*cryo_img.setOnFocusChangeListener(new MyFocusListener());
         imaqua_img.setOnFocusChangeListener(new MyFocusListener());
         productandservices_img.setOnFocusChangeListener(new MyFocusListener());
         productpresentation_img.setOnFocusChangeListener(new MyFocusListener());
@@ -102,7 +102,7 @@ public class MainActivity extends Activity {
         backoffice_img.setOnFocusChangeListener(new MyFocusListener());
         support_img.setOnFocusChangeListener(new MyFocusListener());
         home_img.setOnFocusChangeListener(new MyFocusListener());
-        aboutus_img.setOnFocusChangeListener(new MyFocusListener());
+        aboutus_img.setOnFocusChangeListener(new MyFocusListener());*/
     }
 
     class MyFocusListener implements OnFocusChangeListener{

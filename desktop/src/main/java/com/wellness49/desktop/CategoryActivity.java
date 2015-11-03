@@ -53,7 +53,7 @@ public class CategoryActivity extends Activity {
 		gridview = (GridView) findViewById(R.id.gridview);
 		Resources resources = context.getResources();
 		addApp = new AppInfo();
-		Drawable drawable = resources.getDrawable(R.drawable.item_img_add);
+		Drawable drawable = resources.getDrawable(R.mipmap.item_img_add);
 		addApp.setAppIcon(drawable);
 		addApp.setAppName("Add");
 		Apps.add(addApp);

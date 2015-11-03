@@ -37,7 +37,7 @@
             android:layout_height="40dp"
             android:layout_alignParentRight="true"
             android:scaleType="fitXY"
-            android:src="@drawable/item_img_unsel" />
+            android:src="@mipmap/item_img_unsel" />
     </RelativeLayout>
 
 </LinearLayout>

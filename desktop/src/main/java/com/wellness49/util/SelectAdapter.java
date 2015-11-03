@@ -90,13 +90,13 @@ public class SelectAdapter extends BaseAdapter {
 	private LayerDrawable getView(int post) {
 
 		Bitmap bitmap = ((BitmapDrawable) context.getResources().getDrawable(
-				R.drawable.item_img_unsel)).getBitmap();
+				R.mipmap.item_img_unsel)).getBitmap();
 
 		Bitmap select = null;
 		LayerDrawable la = null;
 		if (isChice[post] == true) {
 			select = BitmapFactory.decodeResource(context.getResources(),
-					R.drawable.item_img_sel);
+					R.mipmap.item_img_sel);
 		}
 		if (select != null) {
 			Drawable[] array = new Drawable[2];

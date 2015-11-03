@@ -7,7 +7,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.wellness49.desktop.ShowActivity"
-    android:background="@drawable/bg" >
+    android:background="@mipmap/bg" >
     
     <GridView 
         android:id="@+id/showgridview"
