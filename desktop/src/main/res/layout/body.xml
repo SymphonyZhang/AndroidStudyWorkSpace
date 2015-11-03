@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/communication_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/communication_icon"
+            android:focusable="true"
+            android:nextFocusRight="@+id/movie_img"
+            android:nextFocusDown="@+id/cryo_img" />
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/movie_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/moves_icon"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/communication_img"
+            android:nextFocusRight="@+id/tv_img"
+            android:nextFocusDown="@+id/cryo_img" />
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/tv_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/tv_icon"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/movie_img"
+            android:nextFocusRight="@+id/sport_img"
+            android:nextFocusDown="@+id/cryo_img" />
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/sport_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/sport_icon"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/tv_img"
+            android:nextFocusRight="@+id/shape_img"
+            android:nextFocusDown="@+id/imaqua_img" />
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/shape_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/shape_icon"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/sport_img"
+            android:nextFocusRight="@+id/socialize_img"
+            android:nextFocusDown="@+id/imaqua_img" />
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/socialize_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/socialize_icon"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/shape_img"
+            android:nextFocusRight="@+id/email_img"
+            android:nextFocusDown="@+id/imaqua_img" />
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/email_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/email_icon"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/socialize_img"
+            android:nextFocusRight="@+id/languages_img"
+            android:nextFocusDown="@+id/productandservices_img" />
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/languages_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/languages_icon"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/email_img"
+            android:nextFocusRight="@+id/music_img"
+            android:nextFocusDown="@+id/productandservices_img" />
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/music_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/music_icon"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/languages_img"
+            android:nextFocusRight="@+id/kid_img"
+            android:nextFocusDown="@+id/productandservices_img" />
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/kid_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/kid_icon"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/music_img"
+            android:nextFocusRight="@+id/cartoons_img"
+            android:nextFocusDown="@+id/productpresentation_img" />
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/cartoons_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/cartoons_icon"
+            android:focusable="true" 
+            android:nextFocusLeft="@+id/kid_img"
+            android:nextFocusRight="@+id/internet_img"
+            android:nextFocusDown="@+id/productpresentation_img"/>
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/internet_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/internet_icon"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/cartoons_img"
+            android:nextFocusRight="@+id/extras_img"
+            android:nextFocusDown="@+id/productpresentation_img" />
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/extras_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/extra_icon"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/internet_img"
+            android:nextFocusRight="@+id/setting_img"
+            android:nextFocusDown="@+id/testimonial_img" />
+
+        <View
+            android:layout_width="@dimen/view_width2"
+            android:layout_height="@dimen/wellness_icon_width" />
+
+        <ImageView
+            android:id="@+id/setting_img"
+            android:layout_width="@dimen/wellness_icon_width"
+            android:layout_height="@dimen/wellness_icon_width"
+            android:onClick="mainClick"
+            android:src="@drawable/setting"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/extras_img"
+            android:nextFocusRight="@+id/cryo_img"
+            android:nextFocusDown="@+id/testimonial_img" />
+
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/cryo_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/cryo"
+                android:focusable="true"
+                android:nextFocusRight="@+id/imaqua_img"
+                android:nextFocusDown="@+id/home_img"
+                android:nextFocusUp="@+id/movie_img"
+                android:nextFocusLeft="@+id/setting_img"/>
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/main_icon_width" />
+
+            <ImageView
+                android:id="@+id/imaqua_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/imaqua"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/cryo_img"
+                android:nextFocusRight="@+id/productandservices_img"
+                android:nextFocusDown="@+id/videos_img"
+                android:nextFocusUp="@+id/shape_img" />
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/main_icon_width" />
+
+            <ImageView
+                android:id="@+id/productandservices_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/productandservices"
+                android:focusable="true" 
+                android:nextFocusLeft="@+id/imaqua_img"
+                android:nextFocusRight="@+id/aboutus_img"
+                android:nextFocusDown="@+id/opportunitypresentation_img"
+                android:nextFocusUp="@+id/languages_img"/>
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/main_icon_width" />
+
+            <ImageView
+                android:id="@+id/aboutus_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/aboutus"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/productandservices_img"
+                android:nextFocusRight="@+id/backoffice_img"
+                android:nextFocusDown="@+id/testimonial_img"
+                android:nextFocusUp="@+id/cartoons_img"/>
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/main_icon_width" />
+
+            <ImageView
+                android:id="@+id/backoffice_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/backoffice"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/aboutus_img"
+                android:nextFocusRight="@+id/home_img"
+                android:nextFocusDown="@+id/toppartners_img"
+                android:nextFocusUp="@+id/setting_img" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/home_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/home"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/backoffice_img"
+                android:nextFocusRight="@+id/videos_img"
+                android:nextFocusUp="@+id/cryo_img"
+                android:nextFocusDown="@+id/support_img" />
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/main_icon_width" />
+
+            <ImageView
+                android:id="@+id/videos_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/videos"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/home_img"
+                android:nextFocusRight="@+id/opportunitypresentation_img"
+                android:nextFocusUp="@+id/imaqua_img"
+                android:nextFocusDown="@+id/register_img" />
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/main_icon_width" />
+
+            <ImageView
+                android:id="@+id/opportunitypresentation_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/opportunitypresentation"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/videos_img"
+                android:nextFocusRight="@+id/testimonial_img"
+                android:nextFocusUp="@+id/productandservices_img"
+                android:nextFocusDown="@+id/ceo_img" />
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/main_icon_width" />
+
+            <ImageView
+                android:id="@+id/testimonial_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/testimonial"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/opportunitypresentation_img"
+                android:nextFocusRight="@+id/toppartners_img"
+                android:nextFocusUp="@+id/aboutus_img"
+                android:nextFocusDown="@+id/productpresentation_img" />
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/main_icon_width" />
+
+            <ImageView
+                android:id="@+id/toppartners_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/toppartners"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/testimonial_img"
+                android:nextFocusRight="@+id/support_img"
+                android:nextFocusUp="@+id/backoffice_img"
+                android:nextFocusDown="@+id/productpresentation_img" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/support_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/support"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/toppartners_img"
+                android:nextFocusRight="@+id/register_img"
+                android:nextFocusUp="@+id/home_img"/>
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/main_icon_width" />
+
+            <ImageView
+                android:id="@+id/register_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/register"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/support_img"
+                android:nextFocusRight="@+id/ceo_img"
+                android:nextFocusUp="@+id/videos_img"/>
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/main_icon_width" />
+
+            <ImageView
+                android:id="@+id/ceo_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/ceo"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/register_img"
+                android:nextFocusRight="@+id/productpresentation_img"
+                android:nextFocusUp="@+id/opportunitypresentation_img" />
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/main_icon_width" />
+
+            <ImageView
+                android:id="@+id/productpresentation_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/productpresentation"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/ceo_img"
+                android:nextFocusRight="@+id/estore_img"
+                android:nextFocusUp="@+id/testimonial_img" />
+
+                <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/main_icon_width" />
+
+            <ImageView
+                android:id="@+id/estore_img"
+                android:layout_width="@dimen/main_icon_width"
+                android:layout_height="@dimen/main_icon_width"
+                android:onClick="mainClick"
+                android:src="@drawable/estore"
+                android:focusable="true"
+                android:nextFocusLeft="@+id/productpresentation_img"
+                android:nextFocusUp="@+id/toppartners_img" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

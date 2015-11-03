@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Desktop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="test">test</string>
+    <string name="str_video">Online Video </string>
+    <string name="str_recommend">My recommend</string>
+    <string name="str_wellness">Wellness 49</string>
+    <string name="str_communication">Communication</string>
+    <string name="str_setting">Settings</string>
+    <string name="str_app">My Apps</string>
+    <string name="str_music">Music</string>
+    <string name="str_local">Local</string>
+    <string name="str_otherapp">Other</string>
+    <string name="str_nospace">Shortcuts no space!</string>
+    <string name="str_day">日</string>
+    <string name="str_add">Add</string>
+    <string name="str_exit">Exit</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_apps">Apps</string>
+    <string name="title_activity_video">Video</string>
+    <string name="title_activity_others">Others</string>
+    <string name="title_activity_show">Show</string>
+    <string name="title_activity_music">Music</string>
+    <string name="title_activity_movie">Movie</string>
+    <string name="title_activity_tv">Tv</string>
+    <string name="title_activity_sport">Sport</string>
+    <string name="title_activity_kid">Kid</string>
+    <string name="title_activity_cartoon">Cartoon</string>
+    <string name="title_activity_recommend">Recommend</string>
+    <string name="title_activity_communication">Communication</string>
+    <string name="title_activity_email">Email</string>
+    <string name="title_activity_internet">Internet</string>
+    <string name="title_activity_other">Other</string>
+    <string name="title_activity_shape">Shape</string>
+    <string name="title_activity_socialize">Socialize</string>
+    <string name="title_activity_languages">Languages</string>
+    <string name="title_activity_extra">Extra</string>
+    <string name="title_activity_wellness_web">WellnessWebActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+
+</resources>
