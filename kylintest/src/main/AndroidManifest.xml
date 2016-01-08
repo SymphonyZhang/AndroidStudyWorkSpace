@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="francis.kylintest">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-feature
+        android:name="android.hardware.usb.host"/>
+    <uses-permission android:name="android.hardware.usb.host"/>
+
+    <application
+        android:name=".utils.Result"
+        android:allowBackup="true"
+        android:icon="@mipmap/devicetest_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".modules.WIFITestActivity"
+            android:label="@string/title_activity_wifitest" >
+        </activity>
+        <activity
+            android:name=".modules.SdCardTestActivity"
+            android:label="@string/title_activity_sd_card_test" >
+        </activity>
+        <activity
+            android:name=".modules.DDRActivity"
+            android:label="@string/title_activity_ddr" >
+        </activity>
+        <activity
+            android:name=".modules.BlueToothActivity"
+            android:label="@string/title_activity_blue_tooth" >
+        </activity>
+        <activity
+            android:name=".modules.EthernetActivity"
+            android:label="@string/title_activity_ethernet" >
+        </activity>
+        <activity
+            android:name=".modules.UsbHostActivity"
+            android:label="@string/title_activity_usb_host" >
+
+        </activity>
+        <activity
+            android:name=".modules.AudioActivity"
+            android:label="@string/title_activity_audio" >
+        </activity>
+        <activity
+            android:name=".modules.VideoActivity"
+            android:label="@string/title_activity_video" >
+        </activity>
+        <activity
+            android:name=".modules.HdmiActivity"
+            android:label="@string/title_activity_hdmi" >
+        </activity>
+        <activity
+            android:name=".modules.IrdaActivity"
+            android:label="@string/title_activity_irda" >
+        </activity>
+        <activity
+            android:name=".modules.DeviceActivity"
+            android:label="@string/title_activity_device" >
+        </activity>
+
+        <receiver
+            android:name=".modules.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".service.TestService"></service>
+    </application>
+
+</manifest>

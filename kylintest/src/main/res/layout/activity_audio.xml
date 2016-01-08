@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black2"
+    tools:context="francis.kylintest.modules.AudioActivity">
+
+    <LinearLayout
+        android:id="@+id/audioll1"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/audio_pass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="audioClick"
+            android:text="@string/pass" />
+
+        <Button
+            android:id="@+id/audio_fail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="audioClick"
+            android:text="@string/fail" />
+        <Button
+            android:id="@+id/audio_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="audioClick"
+            android:text="@string/back" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_above="@id/audioll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/audio_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/audio_left"
+            android:onClick="audioClick"/>
+        <Button
+            android:id="@+id/audio_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/audio_right"
+            android:onClick="audioClick"/>
+    </LinearLayout>
+</RelativeLayout>

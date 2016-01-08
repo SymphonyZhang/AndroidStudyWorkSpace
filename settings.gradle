@@ -1,1 +1,1 @@
-include ':app', ':clear', ':desktop'
+include ':app', ':clear', ':desktop', ':kylintest'
